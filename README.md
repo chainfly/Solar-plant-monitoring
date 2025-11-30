@@ -9,18 +9,30 @@
 
 ## 🎯 **For Mentors - Quick Start Guide**
 
-### **🚀 Main Demo (Recommended)**
+### **🎯 AI Pipeline Interface (NEW - Recommended)**
 ```bash
-pip install -r requirements_impressive.txt
+pip install -r requirements.txt
+streamlit run ai_pipeline_app.py
+```
+**→ Opens AI Enhanced Pipeline web interface at `http://localhost:8501`**
+
+### **🚀 Main Demo**
+```bash
 streamlit run impressive_app.py
 ```
-**→ Opens web interface at `http://localhost:8501`**
+**→ Opens computer vision interface at `http://localhost:8501`**
 
-### **🤖 AI-Enhanced Analysis (With GPT-4)**
+### **🤖 AI-Enhanced Analysis (Command Line)**
 ```bash
 python ai_enhanced_pipeline.py
 ```
-**→ Upload image → Get AI analysis with GPT-4 insights**
+**→ Direct AI pipeline execution with GPT-4 insights**
+
+### **💻 Alternative Interface**
+```bash
+streamlit run impressive_app.py
+```
+**→ Computer vision focused interface**
 
 ### **⚡ Complete Automated Pipeline**
 ```bash
@@ -57,9 +69,10 @@ This system implements **zero-shot AI monitoring** for solar plant construction 
 
 | File | Purpose | Usage |
 |------|---------|-------|
-| `impressive_app.py` | **Web Interface** | `streamlit run impressive_app.py` |
-| `ai_enhanced_pipeline.py` | **AI Analysis with GPT-4** | `python ai_enhanced_pipeline.py` |
-| `image_analysis_pipeline.py` | **Real Image Analysis** | `python image_analysis_pipeline.py` |
+| `ai_pipeline_app.py` | **🎯 NEW: AI Enhanced Pipeline Interface** | `streamlit run ai_pipeline_app.py` |
+| `impressive_app.py` | **🎯 Main Computer Vision Interface** | `streamlit run impressive_app.py` |
+| `ai_enhanced_pipeline.py` | **Core AI Pipeline (GPT-4)** | `python ai_enhanced_pipeline.py` |
+
 | `final_complete_pipeline.py` | **Complete Automation** | `python final_complete_pipeline.py` |
 
 ### **🔄 6-Stage AI Pipeline**
@@ -86,30 +99,30 @@ This system implements **zero-shot AI monitoring** for solar plant construction 
 
 ### **For Mentor Review:**
 
-1. **🌐 Web Demo** (Most Impressive)
+1. **🎯 AI Enhanced Pipeline Interface** (NEW - Most Impressive)
    ```bash
-   streamlit run impressive_app.py
+   streamlit run ai_pipeline_app.py
    ```
-   - Upload construction images
-   - Real-time AI analysis
-   - Interactive dashboard
-   - Professional UI
+   - Upload images → YOUR AI Enhanced Pipeline runs
+   - Real GPT-4 Vision analysis from your pipeline
+   - Professional reports with embedded charts
+   - Complete AI system showcase
 
-2. **🤖 AI Analysis** (Technical Demo)
+2. **🤖 Core AI Pipeline** (Technical Demo)
    ```bash
    python ai_enhanced_pipeline.py
    ```
-   - Computer vision + GPT-4
-   - Detailed technical analysis
-   - Professional PDF reports
+   - Direct pipeline execution
+   - Computer vision + GPT-4 Vision
+   - Detailed AI analysis and reports
 
-3. **⚡ Complete Pipeline** (Full System)
+3. **💻 Computer Vision Demo** (Alternative)
    ```bash
-   python final_complete_pipeline.py
+   streamlit run impressive_app.py
    ```
-   - Automated 6-stage execution
-   - Visual progress charts
-   - Comprehensive reporting
+   - OpenCV-based analysis
+   - Real-time computer vision
+   - Interactive dashboard
 
 ---
 
@@ -118,26 +131,29 @@ This system implements **zero-shot AI monitoring** for solar plant construction 
 ### **Quick Setup**
 ```bash
 # Clone repository
-git clone https://github.com/chainfly/Solar-plant-monitoring.git
-cd Solar-plant-monitoring
+git clone https://github.com/your-username/solar_plant.git
+cd solar_plant
 
 # Install dependencies
-pip install -r requirements_impressive.txt
+pip install -r requirements.txt
 
-# Run main demo
+# Run AI Enhanced Pipeline Interface (NEW)
+streamlit run ai_pipeline_app.py
+
+# OR run original interface
 streamlit run impressive_app.py
 ```
 
 ### **Dependencies**
 ```
-streamlit          # Web interface
-opencv-python      # Computer vision
-matplotlib         # Charts and graphs
-fpdf2             # PDF generation
-pillow            # Image processing
-numpy             # Numerical computing
-pandas            # Data analysis
-openai            # GPT-4 integration (optional)
+streamlit>=1.28.0     # Web interface
+opencv-python>=4.8.0  # Computer vision
+matplotlib>=3.7.0     # Charts and graphs
+fpdf2>=2.7.0         # PDF generation
+pillow>=10.0.0       # Image processing
+numpy>=1.24.0        # Numerical computing
+pandas>=2.0.0        # Data analysis
+openai>=1.0.0        # GPT-4 Vision integration
 ```
 
 ---
@@ -204,13 +220,13 @@ else:
 
 ### **Local Development**
 ```bash
-streamlit run impressive_app.py
+streamlit run ai_pipeline_app.py
 ```
 
 ### **Streamlit Cloud**
 1. Push to GitHub
 2. Connect to [share.streamlit.io](https://share.streamlit.io)
-3. Deploy `impressive_app.py`
+3. Deploy `ai_pipeline_app.py`
 4. Get public URL for sharing
 
 ### **Docker Deployment**
@@ -255,14 +271,14 @@ CMD ["streamlit", "run", "impressive_app.py"]
 
 ## 🏆 **Project Highlights**
 
-- **🎯 Zero-shot AI**: No training data required
-- **🤖 Real Computer Vision**: OpenCV-based analysis
-- **📊 Professional Reports**: Charts + AI insights
-- **🌐 Web Interface**: User-friendly Streamlit app
-- **⚡ Automated Pipeline**: Complete 6-stage system
-- **🔄 Self-Learning**: Adaptive improvement system
+- **🎯 AI Enhanced Pipeline**: Computer Vision + GPT-4 Vision integration
+- **🤖 Real AI Analysis**: OpenCV + OpenAI GPT-4 Vision
+- **📊 Professional Reports**: PDF with embedded charts and AI insights
+- **🌐 Web Interface**: Professional Streamlit interface for AI pipeline
+- **⚡ Zero-Shot Learning**: No training data required
+- **🔄 Enterprise Ready**: Complete AI monitoring system
 
-**Built for professional solar plant construction monitoring with enterprise-grade AI capabilities.**
+**Built for professional solar plant construction monitoring with GPT-4 Vision and advanced computer vision.**
 
 ---
 
